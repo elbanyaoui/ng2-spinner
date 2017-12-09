@@ -1,0 +1,34 @@
+{
+  "name": "ng2-spinner-module",
+  "version": "1.0.0",
+  "description": "A spinner or laoding page for your anguar2/5 apps",
+  "main": "bundles/ng2-spinner.umd.js",
+  "module": "src/ng2-spinner.js",
+  "typings": "src/ng2-spinner.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbanyaoui/ng2-spinner.git"
+  },
+  "keywords": [
+    "ng2 spinner",
+    "ng2-spnner",
+    "angular2 spinner",
+    "ng2 spinner module",
+    "angular 2 spinner",
+    "ng2 loader",
+    "spinner",
+    "ng2 loading",
+    "angular 2 loading spinner",
+    "angular 2 loading page"
+  ],
+  "author": "Mohammed EL BANYAOUI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elbanyaoui/ng2-spinner/issues"
+  },
+  "homepage": "https://github.com/elbanyaoui/ng2-spinner#readme",
+  "peerDependencies": {
+    "@angular/core": "^2.4.0 || ^4.0.0",
+    "rxjs": "^5.0.1"
+  }
+}

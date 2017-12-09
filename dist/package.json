@@ -1,0 +1,42 @@
+{
+  "name": "ng2-spinner-module",
+  "version": "1.0.0",
+  "description": "A spinner or laoding page for your anguar2/5 apps",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "ngc",
+    "package": "rollup -c rollup.config.umd.js",
+    "minify": "uglifyjs dist/bundles/ng2-spinner.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/ng2-spinner.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbanyaoui/ng2-spinner.git"
+  },
+  "keywords": [
+    "ng2 spinner",
+    "ng2-spnner",
+    "angular2 spinner",
+    "ng2 spinner module",
+    "angular 2 spinner",
+    "ng2 loader",
+    "spinner",
+    "ng2 loading",
+    "angular 2 loading spinner",
+    "angular 2 loading page"
+  ],
+  "author": "Mohammed EL BANYAOUI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elbanyaoui/ng2-spinner/issues"
+  },
+  "homepage": "https://github.com/elbanyaoui/ng2-spinner#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/compiler": "^5.1.0",
+    "@angular/compiler-cli": "^5.1.0",
+    "rollup": "^0.52.1",
+    "typescript": "^2.6.2",
+    "uglify-js": "^3.2.1"
+  }
+}
